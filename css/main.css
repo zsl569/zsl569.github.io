@@ -442,7 +442,7 @@ pre figcaption a:hover {
 }
 pre,
 code {
-  font-family: consolas, Menlo, monospace, 'PingFang SC', 'Microsoft YaHei';
+  font-family: Consolas, consolas, Menlo, monospace, 'PingFang SC', 'Microsoft YaHei';
 }
 code {
   border-radius: 3px;
@@ -1744,16 +1744,11 @@ pre code {
 .use-motion .post-block:first-of-type {
   padding-top: 20px;
 }
-.use-motion .post-body p h1 h2 h3 h4 h5 h6 span {
-  color: #222;
-}
 .use-motion .post-title {
   text-align: center;
-  color: #222;
 }
 .use-motion .post-title a {
   text-align: center;
-  color: #222;
 }
 .use-motion .posts-expand.index .post-meta {
   justify-content: center;
@@ -2832,7 +2827,7 @@ hr {
 }
 .sidebar a {
   border-bottom-color: #555;
-  color: #222;
+  color: #f9f9f9;
 }
 .sidebar a:hover {
   border-bottom-color: #eee;
@@ -2849,7 +2844,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #06ffb4;
+  background: #70ff8c;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2875,32 +2870,29 @@ hr {
 .sub-menu .menu-item {
   display: inline-block;
 }
+/**
 body {
-  background: url("/images/background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: 50% 50%;
-  opacity: 0.8;
+    background:url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed; //不重复
+    background-size: cover;      //填充
+    background-position:50% 50%;
+    opacity: 0.8;
 }
+*/
 .main-inner .post-block {
   background: #fff none repeat scroll !important;
 }
 .sidebar {
-  background: #f5f5f5;
-}
-.sidebar-clock {
-  position: absolute;
-  top: 100%;
-  margin-top: -50px;
+  opacity: 0.8;
 }
 .site-author-name {
-  color: #222;
+  color: #f9f9f9;
   font-weight: bold;
   margin: 5px 0 0;
 }
 .site-description {
-  color: #222;
+  color: #f9f9f9;
   font-size: 1em;
   font-weight: bold;
   margin-top: 5px;
